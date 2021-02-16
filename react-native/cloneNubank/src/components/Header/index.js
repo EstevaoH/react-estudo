@@ -11,7 +11,8 @@ export default function Header() {
         <Logo source={logo} />
         <Title>Estevão</Title>
       </Top>
+      <Icon name="keyboard-arrow-down" size={20} color="#fff" ></Icon>
       <Text> textInComponent </Text>
-    </Container>
+    </Container >
   )
 }
